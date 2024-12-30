@@ -13,7 +13,7 @@ const GetInTouch = () => {
                 <Socials title="GitHub" imgUrl="../../assets/github.png" link="https://github.com/Syrian-Engineer" />
                 <Socials title="LinkedIn" imgUrl="/src/assets/linkedin.png" link="https://www.linkedin.com/in/koussai-kareem-al-deen-a77875307/" />
                 <Socials title="Twitter" imgUrl="/src/assets/twitter.png" link="https://x.com/KoussaiKareem1" />
-                <Socials title="faceBook" imgUrl="/src/assets/facebook.png" link="https://www.facebook.com/profile.php?id=61553936758848" />
+                <Socials title="faceBook" imgUrl="/public/facebook.png" link="https://www.facebook.com/profile.php?id=61553936758848" />
                 <Socials title="Whatsapp" imgUrl="/src/assets/whatsapp.png" link="https://wa.me/+963951247728" />
             </div>
             <div className="flex gap-2 flex-wrap w-full justify-center">
