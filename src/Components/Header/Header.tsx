@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <div className="header  fixed top-0 ml-5 w-full flex flex-row items-center justify-between">
+    <div className="header  fixed top-0 ml-5 w-full flex flex-row items-center justify-between pt-2 pb-2 z-10">
       {/* First div (on the left) */}
       <div className="flex items-center">
         <img src="/src/assets/infinity.png" alt="" className="w-9" />
