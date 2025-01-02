@@ -3,7 +3,7 @@ import "./About.css"
 
 const About = () => {
   return (
-    <div className="flex h-[40rem] w-[60rem] pt-16 " id="About">
+    <div className="section flex h-[40rem] w-[60rem] pt-16 " id="About">
         <div className="flex flex-col h-full gap-12 w-[50rem]  justify-center items-center">
             <span className="text-9xl font-bold">A B</span>
             <span className="text-9xl w-[14.1rem] font-bold">O U</span>

@@ -4,42 +4,54 @@ import Home from "../Home/Home"
 import Projects from "../Projects/Projects"
 import GetInTouch from "../GetInTouch/GetInTouch"
 
-const Body = () => {
-  const[count , setCount] = useState(1);
+  const Body = () => {
+    const[count , setCount] = useState(1);
 
-  const handleIncreaseButton = ()=>{
-    if(count < 4)
-    {
-      setCount(count+1);
-    }    
-  }
-  const handleDecreaseButton = ()=>{
-    if(count >1){
-      setCount(count-1)
+    const handleIncreaseButton = ()=>{
+      if(count < 4)
+      {
+        setCount(count+1);
+      }    
     }
+    const handleDecreaseButton = ()=>{
+      if(count >1){
+        setCount(count-1)
+      }
+    }
+
+    return (
+      <div className="mt-9  w-full h-full flex flex-col items-center p-5 gap-44  ">
+          <Home />
+          <About />
+          {count === 1 && (
+          <Projects 
+          projectTitle="Freinds Trip" 
+          projectDescribiton="This Project Aims To When Freinds Go To Trip To Save Their Memories And Calculate Transctions For Each Freind In The Trip And Show The Trips That The User Saved Them   " 
+          projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          )}
+          {count === 2 && (
+          <Projects 
+          projectTitle="Mini-DashBord " 
+          projectDescribiton="Lorem 3rsa dewwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwww" 
+          projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          )}
+          {count === 3 && (
+          <Projects 
+          projectTitle="Game-Hub" 
+          projectDescribiton="This Is Game-Hub fewwwwwwww fewwwwww fweeeeee fwwwe wfeeeeeeeeee fweeeeeeeeee fweeeeeeeeee wefff edwwwww dewwwwwwww " 
+          projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          )}
+          {count === 4 && (
+          <Projects 
+          projectTitle="Protfolio" 
+          projectDescribiton="This Is Protfolio feeeeeeee feeeeeee wfeeeeee fweeeeeeee fwefweeeeeeeeee fewwwwwwwww fewwwwwwwwwwefff fweeeeee fewwwwww" 
+          projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          )}
+        
+          <GetInTouch />
+
+      </div>
+    )
   }
 
-  return (
-    <div className="mt-9  w-full h-full flex flex-col items-center p-5 gap-44 ">
-        <Home />
-        <About />
-        {count === 1 && (
-        <Projects projectTitle="Freinds Trip" projectDescribiton="Lorem 3rsa" projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
-        )}
-        {count === 2 && (
-        <Projects projectTitle="Mini-DashBord" projectDescribiton="Lorem 3rsa" projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
-        )}
-        {count === 3 && (
-        <Projects projectTitle="Game-Hub" projectDescribiton="Lorem 3rsa" projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
-        )}
-        {count === 4 && (
-        <Projects projectTitle="Protfolio" projectDescribiton="Lorem 3rsa" projectPic="/src/assets/FriendsTrip Auth Page.png" handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
-        )}
-       
-        <GetInTouch />
-
-    </div>
-  )
-}
-
-export default Body
+  export default Body

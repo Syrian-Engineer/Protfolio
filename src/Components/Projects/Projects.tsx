@@ -19,7 +19,7 @@ const Projects = ({
   count,
 }: Props) => {
   return (
-    <div className="flex flex-col items-center gap-1 h-fit mb-10 pt-9" id="Projects">
+    <div className="section flex flex-col items-center gap-1 h-fit mb-10 pt-9" id="Projects">
       
         {/* The top div with dynamic background color */}
         <div className="flex w-2/3 h-16 ml-16 p-2 items-center gap-2 ">
