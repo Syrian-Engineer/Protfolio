@@ -20,7 +20,7 @@ const Home = () => {
       {/* Second div with the profile image */}
       <div className="profile-img bg-gradient-to-r from-[#d1b3f4] to-[#e0c7f2] relative overflow-hidden rounded-3xl shadow-[10px_10px_10px_rgba(0,0,0,0.3)] h-full w-[300px]">
         <img
-          src="/src/assets/Untitled-1.png"
+          src="../../../public/Images/Untitled-1.png"
           alt="Profile"
           className="absolute bottom-0 w-full object-cover transition-transform duration-300 hover:scale-110"
         />

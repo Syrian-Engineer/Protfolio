@@ -58,7 +58,7 @@ const Header = () => {
   return (
     <div className="header fixed top-0 ml-5 w-full flex flex-row items-center justify-between pt-2 pb-2 z-10">
       <div className="flex items-center">
-        <img src="/src/assets/infinity.png" alt="" className="w-9" />
+        <img src="../../../public/Images/infinity.png" alt="" className="w-9" />
         <h1 className="text-xl ml-3 font-extrabold font-serif bg-gradient-to-br from-[#e202e6] to-[#288dc8] bg-clip-text text-transparent">
           Engineer Koussai
         </h1>

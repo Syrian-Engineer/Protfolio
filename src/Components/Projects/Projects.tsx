@@ -4,7 +4,8 @@ import ProjectsPic from "./ProjectsPic";
 interface Props {
   projectTitle: string;
   projectDescribiton: string;
-  projectPic: string;
+  projectPic1: string;
+  projectPic2:string;
   handleIncreaseButton: () => void;
   handleDecreaseButton: () => void;
   count: number; // Add the count prop here
@@ -13,7 +14,8 @@ interface Props {
 const Projects = ({
   projectTitle,
   projectDescribiton,
-  projectPic,
+  projectPic1,
+  projectPic2,
   handleIncreaseButton,
   handleDecreaseButton,
   count,
@@ -24,23 +26,23 @@ const Projects = ({
         {/* The top div with dynamic background color */}
         <div className="flex w-2/3 h-16 ml-16 p-2 items-center gap-2 ">
           <div
-            className={`w-1/4 h-1/6 rounded-full ${count === 1 ? 'bg-black' : 'bg-purple-300'}`}
+            className={`w-1/4 h-1/6 rounded-full  ${count === 1 ? 'bg-black ' : 'bg-purple-300'}`}
           ></div>
           <div
-            className={`w-1/4 h-1/6 rounded-full ${count === 2 ? 'bg-black' : 'bg-purple-300'}`}
+            className={`w-1/4 h-1/6 rounded-full  ${count === 2 ? 'bg-black' : 'bg-purple-300'}`}
           ></div>
           <div
-            className={`w-1/4 h-1/6 rounded-full ${count === 3 ? 'bg-black' : 'bg-purple-300'}`}
+            className={`w-1/4 h-1/6 rounded-full  ${count === 3 ? 'bg-black' : 'bg-purple-300'}`}
           ></div>
           <div
-            className={`w-1/4 h-1/6 rounded-full ${count === 4 ? 'bg-black' : 'bg-purple-300'}`}
+            className={`w-1/4 h-1/6 rounded-full  ${count === 4 ? 'bg-black' : 'bg-purple-300'}`}
           ></div>
         </div>
 
         {/* The content and images */}
         <div className="flex w-2/3 h-[30rem] p-7 overflow-hidden ml-52" >
           <ProjectsContent projectTitle={projectTitle} projectDescribiton={projectDescribiton} />
-          <ProjectsPic projectPic1={projectPic} projectPic2="/src/assets/FriendsTrip NewTrip Page.png" />
+          <ProjectsPic projectPic1={projectPic1} projectPic2={projectPic2} />
         </div>
 
         {/* Buttons */}
