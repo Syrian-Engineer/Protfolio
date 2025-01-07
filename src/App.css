@@ -1,5 +1,5 @@
 .App{
-    background-image: url("../../../public/Images/bg2.jpg");
+    background-image: url("/Images/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
