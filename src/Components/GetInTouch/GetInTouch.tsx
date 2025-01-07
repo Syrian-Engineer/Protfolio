@@ -11,7 +11,7 @@ const GetInTouch = () => {
             {/* Row 1: First half of social icons */}
             <div className="flex gap-2 flex-wrap w-full justify-center">
                 <Socials title="GitHub" imgUrl="../../../public/Images/github.png" link="https://github.com/Syrian-Engineer" />
-                <Socials title="LinkedIn" imgUrl="../../../public/Images/linkedin.png" link="https://www.linkedin.com/in/koussai-kareem-al-deen-a77875307/" />
+                <Socials title="LinkedIn" imgUrl="/Images/linkedin.png" link="https://www.linkedin.com/in/koussai-kareem-al-deen-a77875307/" />
                 <Socials title="Twitter" imgUrl="../../../public/Images/twitter.png" link="https://x.com/KoussaiKareem1" />
                 <Socials title="faceBook" imgUrl="../../../public/Images/facebook.png" link="https://www.facebook.com/profile.php?id=61553936758848" />
                 <Socials title="Whatsapp" imgUrl="../../../public/Images/whatsapp.png" link="https://wa.me/+963951247728" />
