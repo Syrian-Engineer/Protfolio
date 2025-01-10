@@ -29,6 +29,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectDescribiton="This Project Aims To When Freinds Go To Trip To Save Their Memories And Calculate Transctions For Each Freind In The Trip And Show The Trips That The User Saved Them   " 
           projectPic1="/Images/FriendsTrip Auth Page.png" 
           projectPic2="/Images/FriendsTrip Auth Page.png" 
+          projectLink="https://friends-trip.vercel.app"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
           )}
           {count === 2 && (
@@ -37,6 +38,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectDescribiton="Lorem 3rsa dewwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwww" 
           projectPic1="/Images/DashBord-Auth.png" 
           projectPic2="/Images/DashBord-Main.png" 
+          projectLink="https://mini-dashbord.vercel.app"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
           )}
           {count === 3 && (
@@ -45,6 +47,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectDescribiton="This Is Game-Hub fewwwwwwww fewwwwww fweeeeee fwwwe wfeeeeeeeeee fweeeeeeeeee fweeeeeeeeee wefff edwwwww dewwwwwwww " 
           projectPic1="/Images/Game-Hub-DarkTheme.png" 
           projectPic2="/Images/Game-Hub-LightTheme.png" 
+          projectLink="https://game-hub-project-koussai.vercel.app"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
           )}
           {count === 4 && (
@@ -53,6 +56,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectDescribiton="This Is Protfolio feeeeeeee feeeeeee wfeeeeee fweeeeeeee fwefweeeeeeeeee fewwwwwwwww fewwwwwwwwwwefff fweeeeee fewwwwww" 
           projectPic1="/Images/Protfolio-Home.png" 
           projectPic2="/Images/Protfolio-GetInTouch.png" 
+          projectLink="https://protfolio-delta-coral.vercel.app/"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
           )}
         

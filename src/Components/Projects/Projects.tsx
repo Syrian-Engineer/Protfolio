@@ -6,6 +6,7 @@ interface Props {
   projectDescribiton: string;
   projectPic1: string;
   projectPic2:string;
+  projectLink:string;
   handleIncreaseButton: () => void;
   handleDecreaseButton: () => void;
   count: number; // Add the count prop here
@@ -16,6 +17,7 @@ const Projects = ({
   projectDescribiton,
   projectPic1,
   projectPic2,
+  projectLink,
   handleIncreaseButton,
   handleDecreaseButton,
   count,
@@ -59,6 +61,11 @@ const Projects = ({
           >
             Next
           </button>
+          <a 
+          className="bg-purple-300 p-5 rounded-full hover:scale-95 hover:text-white hover:cursor-pointer transition duration-300"
+          href={projectLink}
+          target="blank"
+          > Visit</a>
         </div>
     </div>
   );
