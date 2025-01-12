@@ -62,7 +62,7 @@ const Projects = ({
             Next
           </button>
           <a 
-          className="bg-purple-300 p-5 rounded-full hover:scale-95 hover:text-white hover:cursor-pointer transition duration-300"
+          className="bg-purple-300 p-3 rounded-full hover:scale-90 hover:text-white hover:cursor-pointer transition duration-300"
           href={projectLink}
           target="blank"
           > Visit</a>

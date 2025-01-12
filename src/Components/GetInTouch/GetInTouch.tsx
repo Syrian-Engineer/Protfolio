@@ -18,12 +18,9 @@ const GetInTouch = () => {
             </div>
             <div className="flex gap-2 flex-wrap w-full justify-center">
                 <Socials title="Instagram" imgUrl="/Images/Instagram.png" link="https://www.instagram.com/koussaikareem_aldeen" />
-                <Socials title="Deviantart" imgUrl="/Images/deviantart.png" link="https://www.deviantart.com/" />
-                <Socials title="Vimeo" imgUrl="/Images/vimeo.png" link="https://vimeo.com/" />
             </div>
         </div>
         <div className="absolute bottom-0">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, molestias!</p>
         </div>
     </div>
   )

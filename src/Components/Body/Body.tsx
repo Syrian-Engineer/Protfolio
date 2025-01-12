@@ -28,7 +28,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectTitle="Freinds Trip" 
           projectDescribiton="This Project Aims To When Freinds Go To Trip To Save Their Memories And Calculate Transctions For Each Freind In The Trip And Show The Trips That The User Saved Them   " 
           projectPic1="/Images/FriendsTrip Auth Page.png" 
-          projectPic2="/Images/FriendsTrip Auth Page.png" 
+          projectPic2="/Images/FriendsTrip NewTrip Page.png" 
           projectLink="https://friends-trip.vercel.app"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
           )}
