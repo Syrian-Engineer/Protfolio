@@ -35,7 +35,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           {count === 2 && (
           <Projects 
           projectTitle="Mini-DashBord " 
-          projectDescribiton="Lorem 3rsa dewwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww wwwwwwwwwwwwwwwwwwwwwwwww" 
+          projectDescribiton="This Is DashBoard Project To Show Static Data With interactive user interfaces and interactive Charts And Login Page For Authentication" 
           projectPic1="/Images/DashBord-Auth.png" 
           projectPic2="/Images/DashBord-Main.png" 
           projectLink="https://mini-dashbord.vercel.app"
@@ -44,7 +44,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           {count === 3 && (
           <Projects 
           projectTitle="Game-Hub" 
-          projectDescribiton="This Is Game-Hub fewwwwwwww fewwwwww fweeeeee fwwwe wfeeeeeeeeee fweeeeeeeeee fweeeeeeeeee wefff edwwwww dewwwwwwww " 
+          projectDescribiton="This Is Game-Hub Porject for Fetching Games Based On Api From “api.rawg.io” ,filtering Games And Display Them On The App ,Applying Dark Theme And Light Theme " 
           projectPic1="/Images/Game-Hub-DarkTheme.png" 
           projectPic2="/Images/Game-Hub-LightTheme.png" 
           projectLink="https://game-hub-project-koussai.vercel.app"
@@ -53,7 +53,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           {count === 4 && (
           <Projects 
           projectTitle="Protfolio" 
-          projectDescribiton="This Is Protfolio feeeeeeee feeeeeee wfeeeeee fweeeeeeee fwefweeeeeeeeee fewwwwwwwww fewwwwwwwwwwefff fweeeeee fewwwwww" 
+          projectDescribiton="This Is Protfolio Project To Describe The Information About Me And Show The Projects That I have Made And My Own Socails To Connect With me  " 
           projectPic1="/Images/Protfolio-Home.png" 
           projectPic2="/Images/Protfolio-GetInTouch.png" 
           projectLink="https://protfolio-delta-coral.vercel.app/"
