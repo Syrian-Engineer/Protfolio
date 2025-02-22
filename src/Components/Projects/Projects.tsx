@@ -1,5 +1,6 @@
 import ProjectsContent from "./ProjectsContent";
 import ProjectsPic from "./ProjectsPic";
+import TechUsed from "./TechUsed";
 
 interface Props {
   projectTitle: string;
@@ -9,7 +10,8 @@ interface Props {
   projectLink:string;
   handleIncreaseButton: () => void;
   handleDecreaseButton: () => void;
-  count: number; // Add the count prop here
+  count: number; // Add the count prop here;
+  technologies:string[]
 }
 
 const Projects = ({
@@ -21,6 +23,7 @@ const Projects = ({
   handleIncreaseButton,
   handleDecreaseButton,
   count,
+  technologies
 }: Props) => {
   return (
     <div className="section flex flex-col items-center gap-1 h-fit mb-10 pt-9" id="Projects">
@@ -42,8 +45,11 @@ const Projects = ({
         </div>
 
         {/* The content and images */}
-        <div className="flex w-2/3 h-[30rem] p-7 overflow-hidden ml-52" >
-          <ProjectsContent projectTitle={projectTitle} projectDescribiton={projectDescribiton} />
+        <div className="flex  w-2/3 gap-12 h-[30rem] p-7 overflow-hidden ml-52" >
+          <div className="flex flex-col w-full">
+            <ProjectsContent projectTitle={projectTitle} projectDescribiton={projectDescribiton} />
+            <TechUsed technologies={technologies} />
+          </div>
           <ProjectsPic projectPic1={projectPic1} projectPic2={projectPic2} />
         </div>
 

@@ -98,7 +98,7 @@ const ProjectsPic = ({ projectPic1, projectPic2 }: Props) => {
   }, [scale]); // Trigger the effect every time scale changes
 
   return (
-    <div className="w-full h-full  flex flex-col justify-center items-center gap-6">
+    <div className="size-full -mt-5  flex flex-col justify-center items-center gap-6">
       <img
         src={projectPic1}
         alt="Scaling Image"

@@ -30,7 +30,9 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectPic1="/Images/FriendsTrip Auth Page.png" 
           projectPic2="/Images/FriendsTrip NewTrip Page.png" 
           projectLink="https://friends-trip.vercel.app"
-          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
+          technologies={['React',"Redux","React Router","FireBase Store","FireBase Authntication","Tailwind","Type Script","Html"]}
+          />
           )}
           {count === 2 && (
           <Projects 
@@ -39,7 +41,9 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectPic1="/Images/DashBord-Auth.png" 
           projectPic2="/Images/DashBord-Main.png" 
           projectLink="https://mini-dashbord.vercel.app"
-          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
+          technologies={['React',"Redux","FireBase Store","FireBase Authntication","css","Html",]}
+          />
           )}
           {count === 3 && (
           <Projects 
@@ -48,7 +52,9 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectPic1="/Images/Game-Hub-DarkTheme.png" 
           projectPic2="/Images/Game-Hub-LightTheme.png" 
           projectLink="https://game-hub-project-koussai.vercel.app"
-          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
+          technologies={['React',"Chakra UI","Type Script","Html"]}
+          />
           )}
           {count === 4 && (
           <Projects 
@@ -57,7 +63,9 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectPic1="/Images/Protfolio-Home.png" 
           projectPic2="/Images/Protfolio-GetInTouch.png" 
           projectLink="https://protfolio-delta-coral.vercel.app/"
-          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}/>
+          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
+          technologies={['React',"Type Script","Tailwind","Css","Html"]}
+          />
           )}
         
           <GetInTouch />
