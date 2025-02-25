@@ -63,7 +63,7 @@ const Projects = ({
     })
     projectContentAnimation.from("#project-content",{
       x:-500,
-      ease:"back.out",
+      // ease:"back.out",
       duration:1000
     })
   })
@@ -80,7 +80,7 @@ const Projects = ({
     })
     projectPicAnimation.from("#project-pic",{
       x:500,
-      ease:"back.out",
+      // ease:"back.out",
       duration:1000
     })
   })
