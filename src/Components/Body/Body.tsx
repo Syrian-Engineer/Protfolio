@@ -8,7 +8,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
     const[count , setCount] = useState(1);
 
     const handleIncreaseButton = ()=>{
-      if(count < 4)
+      if(count < 5)
       {
         setCount(count+1);
       }    
@@ -42,7 +42,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectPic2="/Images/DashBord-Main.png" 
           projectLink="https://mini-dashbord.vercel.app"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
-          technologies={['React',"Redux","FireBase Store","FireBase Authntication","css","Html",]}
+          technologies={["Html",'React',"Redux","FireBase Store","FireBase Authntication","css"]}
           />
           )}
           {count === 3 && (
@@ -57,6 +57,17 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           />
           )}
           {count === 4 && (
+          <Projects 
+          projectTitle="Protfolio" 
+          projectDescribiton="This Is Protfolio Project To Describe The Information About Me And Show The Projects That I have Made And My Own Socails To Connect With me  " 
+          projectPic1="/Images/Protfolio-Home.png" 
+          projectPic2="/Images/Protfolio-GetInTouch.png" 
+          projectLink="https://protfolio-delta-coral.vercel.app/"
+          handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
+          technologies={['React',"Type Script","Tailwind","Css","Html"]}
+          />
+          )}
+          {count === 5 && (
           <Projects 
           projectTitle="Protfolio" 
           projectDescribiton="This Is Protfolio Project To Describe The Information About Me And Show The Projects That I have Made And My Own Socails To Connect With me  " 
