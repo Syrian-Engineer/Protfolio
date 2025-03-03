@@ -73,7 +73,7 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           projectDescribiton="The app focuses on delivering a seamless and visually engaging interface with smooth animations and responsive design." 
           projectPic1="/Images/Zentry.png" 
           projectPic2="/Images/Zentry-nexues.png" 
-          projectLink="https://protfolio-delta-coral.vercel.app/"
+          projectLink="https://zentry-web-wine.vercel.app/"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
           technologies={['React',"Type Script","Tailwind","Gsap","Html"]}
           />
