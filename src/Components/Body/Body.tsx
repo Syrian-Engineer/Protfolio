@@ -69,13 +69,13 @@ import GetInTouch from "../GetInTouch/GetInTouch"
           )}
           {count === 5 && (
           <Projects 
-          projectTitle="Protfolio" 
-          projectDescribiton="This Is Protfolio Project To Describe The Information About Me And Show The Projects That I have Made And My Own Socails To Connect With me  " 
-          projectPic1="/Images/Protfolio-Home.png" 
-          projectPic2="/Images/Protfolio-GetInTouch.png" 
+          projectTitle="Zentry" 
+          projectDescribiton="The app focuses on delivering a seamless and visually engaging interface with smooth animations and responsive design." 
+          projectPic1="/Images/Zentry.png" 
+          projectPic2="/Images/Zentry-nexues.png" 
           projectLink="https://protfolio-delta-coral.vercel.app/"
           handleIncreaseButton={handleIncreaseButton} handleDecreaseButton={handleDecreaseButton} count={count}
-          technologies={['React',"Type Script","Tailwind","Css","Html"]}
+          technologies={['React',"Type Script","Tailwind","Gsap","Html"]}
           />
           )}
         

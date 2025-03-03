@@ -88,7 +88,7 @@ const Projects = ({
     <div className="section flex flex-col items-center gap-1 h-fit mb-10 pt-9" id="Projects">
       <div id="bar" className="flex w-2/3 h-16 ml-16 p-2 items-center gap-2 ">
         <div
-          className={`w-1/4 h-1/6 rounded-full ${count === 1 ? 'bg-black' : 'bg-purple-300'}`}
+          className={`w-1/4 h-1/6 rounded-full ${count === 1 ? 'bg-black' : 'bg-purple-300 '}`}
         ></div>
         <div
           className={`w-1/4 h-1/6 rounded-full ${count === 2 ? 'bg-black' : 'bg-purple-300'}`}
